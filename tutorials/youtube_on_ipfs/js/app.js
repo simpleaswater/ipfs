@@ -1,5 +1,6 @@
-//Initialize IPFS
-const ipfs = window.IpfsHttpClient('localhost', '5001')
+//TODO: Initialize IPFS HTTP API
+
+
 
 
 //Checking for File Upload
@@ -13,14 +14,17 @@ jQuery("input#customFile").change(function (event) {
 
     // Specify the handler for the `load` event
     reader.onload = async function (e) {
-        const results = await ipfs.add(e.target.result)
+        //TODO: Upload Data to IPFS peer using IPFS HTTP API 
+
 
         //update the video list
+        /*
         updateVideoList({
             name: files[0].name,
             hash: results[0].hash,
             size: humanFileSize(files[0].size)
         })
+        */
     }
 
     // Read the file
@@ -63,7 +67,8 @@ const updateUI = () => {
         var video = document.createElement("video");
         var videoSrc = document.createElement("source");
 
-        videoSrc.src = `http://localhost:8080/ipfs/${videos[i].hash}`
+        //TODO: Retrieve the Data from the IPFS peer using IPFS Gateway
+        videoSrc.src = 'ipfs gateway url'
         video.width = "500"
         video.controls = true
 
