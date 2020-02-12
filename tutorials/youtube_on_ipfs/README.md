@@ -8,5 +8,5 @@ Check out the full tutorial here: [Youtube using IPFS](https://simpleaswater/ipf
 
 #### Demo
 
-![SimpleAsWater Tutorial Demo: Youtube on IPFS](https://simpleaswater.com/static/media/youtube_on_ipfs.3046338a.gif)
+![SimpleAsWater Tutorial Demo: Youtube on IPFS](https://simpleaswater.com/content/images/2020/01/youtube_on_ipfs.3046338a.gif)
 
